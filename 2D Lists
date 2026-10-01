@@ -1,0 +1,24 @@
+import random
+# numbers=[
+#     [2,3,4],
+#     [5,6,7],
+#     [8,9,10]
+#     ]
+# for i in range(3):
+#     for u in range(3):
+#          print(numbers[i][u])
+# numbers=[]
+# row=int(input("how many rows do you want"))
+# number=int(input("how muny numbers do you want per row"))
+# for i in range(row):
+#     numbers.append([])
+#     for o in range(number):
+#         numbers[i].append(random.randint(1,100))
+# print(numbers)
+lista=[[2,8],[5,3]]
+listb=[[3,5],[8,2]]
+listc=[[0,0],[0,0]]
+for i in range(2):
+    for o in range(2):
+        listc[i][o]=lista[i][o]+listb[i][o]
+print(listc)
