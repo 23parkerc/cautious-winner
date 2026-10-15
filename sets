@@ -1,0 +1,36 @@
+numbers = {1,2,2,3,3,4}
+print(numbers)
+
+
+#how to convert a lost into a set
+sample_list = [1,1,2,2,3,3,4,6,6]
+sample_set1 = set(sample_list)
+print(sample_set1)
+
+#sets are not indexible
+
+sample_set = {1,2,3,4}
+if 4 in sample_set:
+    print("yes")
+else:
+    print("no")
+#printing set whilst empty
+myset = set{}
+print(myset)
+
+#adding something to a set
+myset.add(3)
+myset.add(4)
+
+#sets delete duplicates
+
+#removing an item from a set
+
+myset.remove(4)
+print(myset)
+
+print(len({1,1,2,3,3}))
+
+s = {1,2}
+s.discard(5)
+print(s)
